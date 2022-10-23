@@ -11,4 +11,3 @@ type Request struct {
 	Data     *string            `json:"data,omitempty"`
 	Method   *string            `json:"method,omitempty"`
 }
-
