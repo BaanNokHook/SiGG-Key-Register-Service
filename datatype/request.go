@@ -1,6 +1,6 @@
 package datatype
 
-//Request implements the sentry interface for a request error
+//Request implements the keyregister interface for a request error
 type Request struct {
 	Cookies  *[][2]string       `json:"cookies,omitempty"`
 	Fragment *string            `json:"fragment,omitempty"`

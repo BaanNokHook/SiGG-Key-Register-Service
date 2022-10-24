@@ -1,9 +1,9 @@
-module github.com/atlassian/go-sentry-api
+module github.com/atlassian/go-keyregister-api
 
 go 1.13
 
 require (
-	github.com/getsentry/sentry-go v0.9.0
+	github.com/getkeyregister/keyregister-go v0.9.0
 	github.com/go-errors/errors v1.1.1 // indirect
 	github.com/google/go-cmp v0.5.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect

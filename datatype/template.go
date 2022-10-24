@@ -1,6 +1,6 @@
 package datatype
 
-// Template implements the sentry interface for a template error
+// Template implements the keyregister interface for a template error
 type Template struct {
 	AbsPath  *string         `json:"absPath,omitempty"`
 	Filename *string         `json:"filename,omitempty"`

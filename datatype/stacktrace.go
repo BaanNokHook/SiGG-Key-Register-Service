@@ -59,7 +59,7 @@ type SingleException struct {
 	Stacktrace *Stacktrace        `json:"stacktrace,omitempty"`
 }
 
-//Stacktrace implements the sentry interface for a stack trace in a event request
+//Stacktrace implements the keyregister interface for a stack trace in a event request
 type Stacktrace struct {
 	Frames          []Frame   `json:"frames,omitempty"`
 	FramesOmitted   []float64 `json:"framesOmitted,omitempty"`

@@ -16,7 +16,7 @@ type BreadcrumbValue struct {
 	Type      *string                 `json:"type,omitempty"`
 }
 
-// Breadcrumb represents the breadcrumb interface in sentry
+// Breadcrumb represents the breadcrumb interface in keyregister
 type Breadcrumb struct {
 	Values *[]BreadcrumbValue `json:"values,omitempty"`
 }
