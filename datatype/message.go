@@ -1,6 +1,6 @@
 package datatype
 
-//Message implements the sentry interface that a message is in a event request
+//Message implements the keyregister interface that a message is in a event request
 
 type Message struct {   
 	Message    *string	`json:"message,omitempty"`  
