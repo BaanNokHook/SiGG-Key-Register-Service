@@ -1,4 +1,4 @@
-module github.com/atlassian/go-keyregister-api
+module SiGG-Key-Register-Service
 
 go 1.13
 
